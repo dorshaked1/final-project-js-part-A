@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index page</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <p>hi</p>
+  <main class="page">
+    <!-- Sidebar -->
+    <aside class="side">
+      <img class="avatar" id="avatar" alt="Profile" src="images/avatar.jpg">
+      <h1 class="name">Dor Shaked</h1>
+      <p class="role">Frontend / JS Student</p>
+      <p class="tagline">I build clean, simple web interfaces while learning modern JavaScript.</p>
+
+      <nav class="nav">
+        <a href="#about">— About</a>
+        <a href="#status">— Education</a>
+        <a href="#projects">— Projects</a>
+      </nav>
+
+      <div class="social">
+        <a id="link-gh" aria-label="GitHub" href="#" target="_blank">GH</a>
+        <a id="link-ln" aria-label="LinkedIn" href="#" target="_blank">in</a>
+        <a aria-label="Email" href="mailto:you@example.com">@</a>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <section class="content">
+      <!-- About -->
+      <section id="about" class="about card">
+        <h2>About</h2>
+        <p>
+          I’m a practical software engineering student focused on JavaScript, C#, and SQL.
+          I like building small apps that solve real problems and explaining my code clearly.
+          In my spare time,i am usually like to  play video games,go out with my friends or just relaxing and drink someting in the beach.
+        </p>
+        <p class="muted">
+          Interests: frontend fundamentals, clean UI, and learning by doing.
+        </p>
+      </section>
+
+      <!-- Status / Education -->
+      <section id="status" class="status card">
+        <span class="badge">Now</span>
+        <div class="desc">
+          Practical Software Engineer student at <strong>Ruppin</strong>.
+          Building coursework projects and a stocks side-project.
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div id="repos" class="grid" aria-live="polite">
+          <!-- Filled by JS -->
+        </div>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Dor Shaked 
+      </footer>
+    </section>
+  </main>
+<script src="/scripts/portfolio.js"></script>
 </body>
 </html>
