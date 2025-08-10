@@ -97,10 +97,7 @@ a:hover {
   border-radius: 8px;
 
 }
-.social button{
-  width: 34px;height: 34px;display:grid;place-items:center;background:#0c1a30;border:1px solid #1c2f52;border-radius:8px;
-}
-.social button:hover{background-color: #666;}
+.social a:hover{background-color: #666;}
 /* Content */
 .content {
   min-width: 0;
