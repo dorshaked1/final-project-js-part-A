@@ -10,13 +10,11 @@ const yearEl    = document.getElementById("year");
 const ghLink    = document.getElementById("link-gh");
 const lnLink    = document.getElementById("link-ln");
 const avatar    = document.getElementById("avatar");
-const emailLink = document.getElementById("link-email"); // <-- make sure this exists in HTML
 
 // Basic wiring
 yearEl.textContent = new Date().getFullYear();
 ghLink.href = `https://github.com/${GH_USERNAME}`;
 lnLink.href = LINKEDIN_URL;
-if (emailLink) emailLink.href = "mailto:dorshaked1@gmail.com";
 
 // Load repos (minimal, ברור)
 async function loadRepos() {
