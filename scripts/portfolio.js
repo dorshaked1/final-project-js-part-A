@@ -15,6 +15,13 @@ const avatar    = document.getElementById("avatar");
 yearEl.textContent = new Date().getFullYear();
 ghLink.href = `https://github.com/${GH_USERNAME}`;
 lnLink.href = LINKEDIN_URL;
+function openGmail() {
+  window.open("https://mail.google.com/mail/?view=cm&fs=1&to=dorshaked7@gmail.com&su=Hello&body=Hi Dor,", "_blank");
+}
+
+function openOutlook() {
+  window.open("https://outlook.live.com/owa/?path=/mail/action/compose&to=dorshaked7@gmail.com&subject=Hello&body=Hi Dor,", "_blank");
+}
 
 // Load repos (minimal, ברור)
 async function loadRepos() {
