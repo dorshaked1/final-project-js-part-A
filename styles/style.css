@@ -218,6 +218,75 @@ footer {
   .side {
     position: static;
   }
+
+}
+@media (max-width: 768px) {
+  .page {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .side {
+    text-align: center;
+  }
+
+  .avatar {
+    width: 96px;
+    height: 96px;
+  }
+
+  .nav {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .nav a {
+    margin: 6px;
+    font-size: 14px;
+  }
+
+  .social {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social a {
+    margin: 6px;
+  }
+
+  .repo {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  h1.name {
+    font-size: 28px;
+  }
+
+  p.role {
+    font-size: 16px;
+  }
+
+  .tagline {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav a, .social a {
+    font-size: 12px;
+  }
+
+  .repo h3 {
+    font-size: 14px;
+  }
+
+  .repo p {
+    font-size: 12px;
+  }
 }
 
 
