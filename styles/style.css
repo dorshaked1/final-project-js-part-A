@@ -1,3 +1,6 @@
+
+
+
 :root {
   --bg: #0b1524;
   --bg2: #0e1a2d;
@@ -273,8 +276,8 @@ footer {
     font-size: 14px;
     line-height: 1.4;
   }
-}
 
+}
 @media (max-width: 480px) {
   .nav a, .social a {
     font-size: 12px;
@@ -287,6 +290,30 @@ footer {
   .repo p {
     font-size: 12px;
   }
+}
+/*contact-page  style*/
+.page-contact{
+  padding:40px 20px;
+}
+#h1-contact{
+  text-align: center; margin-bottom: 20px;
+}
+.btn-contact {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-contact:hover {
+  background-color: #005fa3;
 }
 
 
